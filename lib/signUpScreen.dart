@@ -18,11 +18,29 @@ class SignUpScreen extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Colors.transparent,
         body: Column(
-          children: const <Widget>[
-            SignInTopView(),
-            CustomButton(text: "Sign in with Facebook", imageName: 'fb'),
-            CustomButton(text: "Sign in with Twitter", imageName: 'twitter'),
-            CustomButton(text: "Sign Up", imageName: '')
+          children: <Widget>[
+            const SignInTopView(),
+            const SizedBox(
+              height: 75,
+            ),
+            const CustomButton(text: "Sign in with Facebook", imageName: 'fb'),
+            const SizedBox(
+              height: 20,
+            ),
+            const CustomButton(text: "Sign in with Twitter", imageName: 'twitter'),
+            const SizedBox(
+              height: 20,
+            ),
+            const CustomButton(text: "Sign Up", imageName: ''),
+            const SizedBox(height: 10,),
+            TextButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: const Text("ALREADY REGISTERED? SIGN IN",
+                    style: TextStyle(
+                        color: Colors.white,
+                        decoration: TextDecoration.underline)))
           ],
         ),
       ),

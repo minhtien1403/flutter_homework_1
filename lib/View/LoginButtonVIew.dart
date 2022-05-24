@@ -45,11 +45,12 @@ class LoginButtonView extends StatelessWidget {
         const SizedBox(
           height: 20,
         ),
-        const Text(
-          "FORGOT PASSWORD?",
-          style: TextStyle(
-              color: Colors.white, decoration: TextDecoration.underline),
-        )
+        TextButton(
+            onPressed: () {
+            },
+            child: const Text("FORGOT PASSWORD",
+                style: TextStyle(
+                    color: Colors.white, decoration: TextDecoration.underline)))
       ],
     );
   }

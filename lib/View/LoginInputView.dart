@@ -21,9 +21,9 @@ class LoginInputView extends StatelessWidget {
                 hintStyle: TextStyle(
                     color: Color.fromRGBO(243, 177, 174, 1), fontSize: 20),
                 enabledBorder: UnderlineInputBorder(
-                    borderSide: BorderSide(color: Colors.white)),
+                    borderSide: BorderSide(color: Colors.white, width: 0.5)),
                 focusedBorder: UnderlineInputBorder(
-                    borderSide: BorderSide(color: Colors.white))),
+                    borderSide: BorderSide(color: Colors.white, width: 0.5))),
           ),
         ),
         const Padding(
@@ -34,9 +34,9 @@ class LoginInputView extends StatelessWidget {
                 hintStyle: TextStyle(
                     color: Color.fromRGBO(243, 177, 174, 1), fontSize: 20),
                 enabledBorder: UnderlineInputBorder(
-                    borderSide: BorderSide(color: Colors.white)),
+                    borderSide: BorderSide(color: Colors.white, width: 0.5)),
                 focusedBorder: UnderlineInputBorder(
-                    borderSide: BorderSide(color: Colors.white))),
+                    borderSide: BorderSide(color: Colors.white, width: 0.5))),
           ),
         ),
         Padding(

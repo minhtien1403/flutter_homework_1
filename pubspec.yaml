@@ -64,6 +64,16 @@ flutter:
      - assets/images/twitter.png
      - assets/images/vertical_line.png
 
+  fonts:
+    - family: Oswald
+      fonts:
+      - asset: assets/fonts/Oswald-Regular.ttf
+        style: normal 
+    - family: Nunito
+      fonts:
+      - asset: assets/fonts/Nunito-Regular.ttf
+        style: normal
+    
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
