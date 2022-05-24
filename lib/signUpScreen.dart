@@ -39,8 +39,12 @@ class SignUpScreen extends StatelessWidget {
                 },
                 child: const Text("ALREADY REGISTERED? SIGN IN",
                     style: TextStyle(
-                        color: Colors.white,
-                        decoration: TextDecoration.underline)))
+                    shadows: [Shadow(color: Colors.white, offset: Offset(0, -1))],
+                    color: Colors.transparent,
+                    decorationThickness: 2,
+                    decorationColor: Colors.white,
+                    decorationStyle: TextDecorationStyle.solid,
+                    decoration: TextDecoration.underline)))
           ],
         ),
       ),
