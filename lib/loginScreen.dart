@@ -26,6 +26,7 @@ class _LoginScreenState extends State<LoginScreen> {
           ])),
       child: Scaffold(
         backgroundColor: Colors.transparent,
+        resizeToAvoidBottomInset: false,
         body: Column(
           children: const <Widget>[
             SignInTopView(),
